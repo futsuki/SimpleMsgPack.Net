@@ -18,14 +18,14 @@ if you find any bug, please contact me!
 
 Works with
 --------
-  .NET Framework 4.x
+  .NET Framework 2.0
   
   
 ### Code Example
 ```C#
 
     MsgPack msgpack = new MsgPack();
-    msgpack.ForcePathObject("p.name").AsString = "张三";
+    msgpack.ForcePathObject("p.name").AsString = "张丁E;
     msgpack.ForcePathObject("p.age").AsInteger = 25;
     msgpack.ForcePathObject("p.datas").AsArray.Add(90);
     msgpack.ForcePathObject("p.datas").AsArray.Add(80);
